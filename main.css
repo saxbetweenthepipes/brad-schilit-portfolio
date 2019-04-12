@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    border: 1px solid red
+    /* border: 1px solid red */
 }
 
 
@@ -14,16 +14,20 @@ footer {
 
 header {
     padding: 12% 0;
+    background-color: 04052e;
+    color: white
+}
+
+section.about {
+    /* border: 1px solid red; */
+    background-color: 140152;
+    color: white;
 }
 
 section {
     min-height: 200px;
     padding: 6% 0;
     background-color: #bbb;
-}
-
-section:nth-child(even) {
-    background-color: #ddd;
 }
 
 body {
@@ -46,10 +50,12 @@ nav.navbar {
     display: flex;
     padding: 5px;
     justify-content: center;
+    background-color: 02010a;
     /* border: 1px solid red */
 }
 
 nav.navbar a {
+    color: white;
     margin: 0 10px 0 10px;
     margin-bottom: 100px
 }
@@ -66,4 +72,22 @@ div.school-list>ul {
 
 div.school-list>ul>li {
     width: 100%;
+}
+
+section.projects {
+    background-color: 22007C;
+    color: white;
+    /* border: 1px solid red */
+}
+
+section.contact-info {
+    background-color: 0d00a4;
+    color: white;
+    /* border: 1px solid red */
+}
+
+footer.footer {
+    background-color: 02010a;
+    color: white;
+    /* border: 1px solid red */
 }
