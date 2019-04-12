@@ -1,27 +1,13 @@
 * {
     box-sizing: border-box;
+    /* border: 1px solid red  */
 }
 
-body {
-    font-family: "Open Sans", sans-serif;
-    font-size: 20px;
-    color: #444;
-    text-align: center;
-    line-height: 1.5;
-}
-
+/* general setup */
 nav,
 footer {
     padding: 1% 0;
     background-color: #aaa;
-}
-
-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 10;
 }
 
 header {
@@ -37,3 +23,47 @@ section {
 section:nth-child(even) {
     background-color: #ddd;
 }
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    color: #444;
+    text-align: center;
+    line-height: 1.5;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+    nav.navbar {
+        display: flex;
+        padding: 5px;
+    }
+
+        nav.navbar a {
+            margin: 0 10px 0 10px;
+            margin-bottom: 100px
+
+        }
+
+div.school-list {
+    /* border: 1px solid red  */
+
+}
+
+    div.school-list > ul {
+        list-style-type: none;
+        width: 100%;
+        text-align: justify-all;
+    }
+
+        div.school-list > ul > li {
+            width: 100%;
+            
+            
+        }
