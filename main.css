@@ -1,9 +1,11 @@
 * {
     box-sizing: border-box;
-    /* border: 1px solid red  */
+    border: 1px solid red
 }
 
+
 /* general setup */
+
 nav,
 footer {
     padding: 1% 0;
@@ -40,30 +42,28 @@ nav {
     z-index: 10;
 }
 
-    nav.navbar {
-        display: flex;
-        padding: 5px;
-    }
+nav.navbar {
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    /* border: 1px solid red */
+}
 
-        nav.navbar a {
-            margin: 0 10px 0 10px;
-            margin-bottom: 100px
-
-        }
+nav.navbar a {
+    margin: 0 10px 0 10px;
+    margin-bottom: 100px
+}
 
 div.school-list {
     /* border: 1px solid red  */
-
 }
 
-    div.school-list > ul {
-        list-style-type: none;
-        width: 100%;
-        text-align: justify-all;
-    }
+div.school-list>ul {
+    list-style-type: none;
+    width: 100%;
+    text-align: justify-all;
+}
 
-        div.school-list > ul > li {
-            width: 100%;
-            
-            
-        }
+div.school-list>ul>li {
+    width: 100%;
+}
